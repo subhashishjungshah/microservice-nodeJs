@@ -58,6 +58,12 @@ This project aims to demonstrate the development of an online grocery store usin
 
 The architecture follows a microservices-based approach, utilizing a combination of backend technologies, databases, and communication protocols. The system is designed to be scalable, fault-tolerant, and modular.
 
+### Monolithic Architecture
+
+![Alt text](image.png)
+
+### Microservices Architecture
+
 ![Architecture Diagram](link-to-your-architecture-diagram)
 
 ## Microservices
