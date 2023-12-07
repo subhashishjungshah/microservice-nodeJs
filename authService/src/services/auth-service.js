@@ -1,4 +1,4 @@
-const { AuthRepository } = require("../database/repository/auth-repository");
+const AuthRepository = require("../database/repository/auth-repository");
 
 class AuthService {
   constructor() {
@@ -21,3 +21,4 @@ class AuthService {
     }
   }
 }
+module.exports = AuthService;
