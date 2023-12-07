@@ -1,11 +1,13 @@
 const express = require("express");
 const expressApp = require("./express-app");
 const { PORT } = require("./config");
+const { databaseConnection } = require("./database");
 
-const startServer = () => {
+const startServer = async () => {
   const app = express();
 
-  expressApp(app);
+  await databaseConnection();
+  await expressApp(app);
 
   app
     .listen(PORT, () => {
